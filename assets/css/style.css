@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+.header{
+    background-color: rgb(226, 162, 25);
+    padding: 25px;
+
+}
+h1{
+display: inline-block;
+font-size: 50px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.header nav{
+    float:right;
+    font-size: 24px;
+}
+.header nav ul li{
+    display: inline-block;
+    padding: 20px;
+
+}
+a:link{
+    color:white;
+    text-decoration: none;
+}
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color:whitesmoke
+}
+a:active{
+    color:black;
+    text-decoration: underline;
+}
+.hero{
+height:400px;
+width:100%;
+background-image: url(../images/IMG_8745.jpeg);
+background-size: cover;
+background-position: center;
+flex-direction: initial;
+}
