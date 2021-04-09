@@ -1,26 +1,31 @@
 *{
     box-sizing: border-box;
-    padding: 0;
+    padding: 0px;
     margin:0;
-    background-color: bisque;
 }
 .header{
-    background-color: rgb(226, 162, 25);
+    background-color: #e2a219;
     padding: 25px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 h1{
 display: inline-block;
 font-size: 50px;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: #e2a219;
 }
 .header nav{
     float:right;
     font-size: 24px;
+    background-color: #e2a219;
 }
 .header nav ul li{
     display: inline-block;
     padding: 20px;
+    background-color: #e2a219;
 
 }
 a:link{
@@ -46,4 +51,101 @@ background-image: url(../images/IMG_8745.jpeg);
 background-size: cover;
 background-position: center;
 flex-direction: initial;
+}
+main{
+    background-color: bisque;
+    width:auto;
+    height: auto;
+    overflow:auto;
+}
+.aboutme{
+    padding-top: 100px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-wrap: flex;
+    
+}
+.aboutme p{
+    font-size: large;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    text-indent: 25px;
+}
+.title{
+    width:25%;
+    display: inline-block;
+    float: left;
+    font-size: xx-large;
+    border-right: solid;
+    text-align: right;
+    padding-right: 20px;
+    text-shadow: 1px 1px 1px lightblue, 2px 2px 1px lightblue;
+    color:black;
+
+}
+.aboutmecontent{
+    width:75%;
+    display: inline-block;
+    float: right;
+    padding-left: 20px;
+}
+
+.examples header{
+    text-align: center;
+    padding: 5px;
+    border: solid;
+    border-color: cadetblue;
+    margin-bottom: 5px;
+    color:red;
+    font-size: large;
+    font-weight: bold;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.card{
+   flex: 2 1 auto; 
+   padding-left: 20px;
+   padding: 10px;
+   width:300px;
+}
+.card img{
+width:100%;
+height:100px;
+object-fit: cover;
+}
+
+.contactinfo{
+    width: 75%;
+    display: inline-block;
+    float:right;
+}
+.contactme ul{
+    display:flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 75%;
+}
+.contactme ul li{
+    display: inline;
+    margin-left: 50px;
+   
+}
+.contactme{
+    font-size: x-large;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.backglow:hover{
+    box-shadow: 0px 0px 10px purple;
+}
+.contactme a{
+    color:black;
+}
+.contactme a:hover{
+    color:lightblue;
 }
