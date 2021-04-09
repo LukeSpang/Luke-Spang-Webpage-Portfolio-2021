@@ -11,6 +11,8 @@ When the webpage is loaded viewers are presented with
 5. links for the applications will direct viewers to the deployed applications (when available)
 6. Finally the webpage will adapt to various screens and devices with a responsive layout.
 
+The Portfolio is live at: https://lukespang.github.io/Luke-Spang-Webpage-Portfolio-2021/
+
 Below is the current status of the page
 <img src="assets/images/portfolio1.png">
 <img src="assets/images/portfolio2.png">
