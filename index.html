@@ -16,20 +16,20 @@
 </head>
 <body>
     <header class="portfolio-hero-header wrapper">
-        <h1 class="portfolio-hero-header-h1"> Luke Spang Programming </h1>
+        <h1 id="topMain" class="portfolio-hero-header-h1"> Luke Spang Programming </h1>
         <ul class="portfolio-hero-header-menu">
           <li><a class="button primary large" href="#aboutme">About Me</a></li>
           <li><a class="button primary large" href="#examples">Work</a></li>
           <li><a class="button primary large" href="#contactme">Contact Me</a></li>
         </ul>
       </header>
-    <div class="hero"></div>
-    <main>
-        <section class="aboutme" id="aboutme">
-            <h2 class="title">About Me</h2>
-            <p class="aboutmecontent">      My Name? Luke Spang. My goal? To show you projects that I am most passionate and proud of. Below you will see said projects, as well as ways to contact me. I am a former registered nurse. After pursuing further education I have reinvented myself as a computer programmer. In my free time I am a huge sports fan. Being from Pennsylvania, I grew up loving everything Philly. I have recently relocated to Raleigh, North Carolina, so my fiancee and I enjoy exploring new areas and trying new food! I also love the beach and the ocean. If it were up to me, I would be coding in a beach chair right now.</p>
-        </section>
-        <div class="marketing-site-content-section">
+      <div class="marketing-site-hero">
+        <div class="marketing-site-hero-content">
+          <h1 id="aboutme">Who is Luke Spang</h1>
+          <p class="subheader">My Name? Luke Spang. My goal? To show you projects that I am most passionate and proud of. Below you will see said projects, as well as ways to contact me. I am a former registered nurse. After pursuing further education I have reinvented myself as a computer programmer. In my free time I am a huge sports fan. Being from Pennsylvania, I grew up loving everything Philly. I have recently relocated to Raleigh, North Carolina, so my fiancee and I enjoy exploring new areas and trying new food! I also love the beach and the ocean. If it were up to me, I would be coding in a beach chair right now.</p>
+        </div>
+      </div>      
+        <div id="examples" class="marketing-site-content-section">
             <div class="marketing-site-content-section-img">
               <img src="assets/images/FinalMusic.png" alt="Music Search Project Home Page"/>
             </div>
@@ -65,19 +65,47 @@
               <img src="assets/images/FinalPassword.png" alt="Password Generator App Homepage"/>
             </div>
           </div>
-          
-          
-        
-            <section class="contactme" id="contactme">
-                <h2 class="title">Contact Me</h2>
-                <ul class="contactinfo">
-                    <a href="#"><li>717-341-3763</li></a>
-                    <a href="#"><li>Lspang20@gmail.com</li></a>
-                    <a href="https://github.com/LukeSpang"><li>GitHub</li></a>
-                    <a href="https://www.linkedin.com/in/luke-spang-a6a960207/"><li>LinkedIn</li></a>
-                </ul>
-            </section>
-        
+    <footer id="contactme" class="marketing-site-footer">
+                <div class="row medium-unstack">
+                  <div class="medium-4 columns">
+                    <h4 class="marketing-site-footer-name">Contact Me</h4>
+                  </div>
+                  <div class="medium-4 columns">
+                    <div class="marketing-site-footer-block">
+                      <i class="fa fa-phone" aria-hidden="true"></i>
+                      <p>(717)-341-3763</p>
+                    </div>
+                    <div class="marketing-site-footer-block">
+                      <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                      <p>Lspang20@gmail.com</p>
+                    </div>
+                    <div class="marketing-site-footer-block">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <p>Github: LukeSpang</p>
+                      </div>
+                      <div class="marketing-site-footer-block">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <p>LinkedIn: luke-spang</p>
+                      </div>
+                  </div>
+                  <div class="medium-4 columns">
+                  </div>
+                </div>
+                <div class="marketing-site-footer-bottom">
+                  <div class="row large-unstack align-middle">
+                    <div class="column">
+                      <p>&copy; 2021 No rights reserved</p>
+                    </div>
+                    <div class="column">
+                      <ul class="menu marketing-site-footer-bottom-links">
+                        <li><a href="#topMain">Home</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </footer>
+              
+                      
         
         
     </main>
