@@ -1,5 +1,71 @@
 
+#aboutMeTitle{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.aboutMe{
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    word-spacing: 1mm;
+    margin-bottom: 15px;
+}
+#aboutMeBack{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.basic-card {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 1rem;
+    border: 1px solid #e6e6e6;
+    border-radius: 0;
+    background: #fefefe;
+    box-shadow: none;
+    overflow: hidden;
+    color: #0a0a0a;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    margin: 0 auto;
+    width: 50%;
+  }
+  
+  .basic-card > :last-child {
+    margin-bottom: 0;
+  }
+  
+  .basic-card-image {
+    grid-row-end: 4;
+        grid-row-start: 1;
+  }
+  
+  .basic-card-image img {
+    width: 100%;
+  }
+  
+  .basic-card-content {
+    border: 0;
+    grid-row-start: 3 / 4;
+    margin: 0;
+    overflow: scroll;
+  }
+  
+  
+ 
+  
 
+  
+/*------------*/
 .marketing-site-hero {
     background: url("../images/Hero3.jpg") top right no-repeat;
     height: 600px;
@@ -47,6 +113,7 @@
   
   
 /*-------------*/
+
 .marketing-site-footer {
     background: #2c3840;
     color: #8aa0ae;
@@ -112,9 +179,9 @@
   }
   
   .marketing-site-footer-bottom .marketing-site-footer-bottom-links {
-    -webkit-justify-content: flex-end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -webkit-justify-content: flex;
+        -ms-flex-pack: middle;
+            justify-content: flex;
   }
   
   .marketing-site-footer-bottom .marketing-site-footer-bottom-links a {
@@ -138,8 +205,8 @@
   
 /*------------*/
 .portfolio-hero-header-h1{
-    font-size: xx-large;
-    font: 'Roboto', sans-serif;
+    font-size: 52px;
+    font-family: 'Roboto', sans-serif;
     color: whitesmoke;
     font-weight: bold;
 }
@@ -291,11 +358,13 @@
   }
   
   .marketing-site-content-section-block-header {
-    font-size: 24px;
+    font-size: 30px;
+    font-weight: bold;
   }
   
   .marketing-site-content-section-block-subheader {
-    font-size: 13px;
+    font-size: 15px;
+    color: black;
   }
   
   
@@ -363,7 +432,6 @@ main{
 .title{
     width:25%;
     display: inline-block;
-    float: left;
     font-size: xx-large;
     border-right: solid;
     text-align: right;
@@ -375,7 +443,6 @@ main{
 .aboutmecontent{
     width:75%;
     display: inline-block;
-    float: right;
     padding-left: 20px;
 }
 
@@ -422,7 +489,6 @@ object-fit: cover;
 .contactinfo{
     width: 75%;
     display: inline-block;
-    float:right;
 }
 .contactme ul{
     display:flex;
